@@ -7,9 +7,17 @@ export default function Work() {
       description:
         'A modern, production-ready weather application with light/dark mode, unit switching, API caching, and comprehensive testing.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600',
-      link: '#',
+      link: 'https://github.com/akt489/Weather-APP.git',
       tags: ['JavaScript', 'HTML', 'CSS', 'API'],
     },
+    {
+      title: 'Student-Management',
+      description:
+        'A modern desktop application for managing student records, courses, and academic data through a clean and intuitive JavaFX interface, featuring full CRUD operations and efficient local data handling.',
+      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600',
+      link: 'https://github.com/akt489/Student-Management.git',
+      tags: ['Java', 'JavaFX', 'CSS'],
+    }
   ];
 
   return (
@@ -57,7 +65,7 @@ export default function Work() {
                 </div>
 
                 <a
-                  href="https://github.com/akt489/Weather-APP.git"
+                  href={project.link}
                   className="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors font-medium group/link"
                 >
                   Learn more

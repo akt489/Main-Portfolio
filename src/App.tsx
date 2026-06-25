@@ -7,6 +7,7 @@ import Timeline from './components/Timeline';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import CTA from './components/CTA';
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Approach />
       <Work />
       <Timeline />
+      <Skills />
       <Testimonials />
       <CTA />
       <Footer />

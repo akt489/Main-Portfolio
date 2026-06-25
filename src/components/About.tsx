@@ -1,4 +1,5 @@
 import React from "react";
+import abraham from "../assets/abraham.jpg";
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
           <div className="relative h-96 md:h-full rounded-lg overflow-hidden bg-gradient-to-br from-blue-500/20 to-cyan-500/20 border border-white/10">
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src={abraham}
                 alt="Abraham working on code"
                 className="w-full h-full object-cover opacity-80"
               />

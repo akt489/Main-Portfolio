@@ -33,23 +33,23 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4">Skills</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <a href="#skills" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Frontend
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <a href="#skills" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Backend
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <a href="#skills" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Databases
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Java development
+                <a href="#skills" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  Java Development
                 </a>
               </li>
             </ul>
@@ -59,22 +59,12 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <a href="https://github.com/akt489" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Github
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/in/abrahamtilahun/" className="text-sm text-gray-400 hover:text-white transition-colors">
                   LinkedIn
                 </a>
               </li>
@@ -82,29 +72,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-white mb-4">Legal</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Privacy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Terms
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Sitemap
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Changelog
-                </a>
-              </li>
-            </ul>
+            <div>
+              <p className="text-lg text-white font-bold" style={{ fontFamily: "'Great Vibes', cursive" }}>
+                Crafted with modern tools, clean code, and a focus on quality.
+              </p>
+            </div>
+            <div>
+              <p>
+                call me: +251 9340 7460
+              </p>
+            </div>
           </div>
         </div>
 
